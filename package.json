@@ -1,0 +1,29 @@
+{
+  "name": "guess-birthday-game",
+  "version": "1.0.0",
+  "description": "CLI guess your birthday",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeijiNumata/guess-birthday-game.git"
+  },
+  "keywords": [
+    "game",
+    "birthday"
+  ],
+  "author": "Seiji Numata <seizi.numata@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "guess-birthday-game": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/SeijiNumata/guess-birthday-game/issues"
+  },
+  "homepage": "https://github.com/SeijiNumata/guess-birthday-game#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  }
+}
