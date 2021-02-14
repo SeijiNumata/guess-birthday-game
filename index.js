@@ -37,7 +37,7 @@ async function exec () {
   })
 
   const userName = await QuestionUserName.run()
-  console.log(`こんにちは,${userName}さん。あなたの誕生日を当てましょう!!`)
+  console.log(`こんにちは、${userName}さん。あなたの誕生日を当てましょう!!`)
 
   const answer1 = await question1.run()
   console.log(answer1)

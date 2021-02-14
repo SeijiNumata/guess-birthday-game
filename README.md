@@ -1,9 +1,13 @@
 # guess-birthday-geme
-CLI guess your birthday.
+This is an interactive game.
+Coputer guess your birthday.
 
 ## Installation
 ```
-npm i guess-birthday-game
+$ npm i guess-birthday-game
 ```
 ## Usage
-guess-birthday-game
+Start game
+```
+$ guess-birthday-game
+```
