@@ -1,6 +1,6 @@
 {
   "name": "guess-birthday-game",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI guess your birthday",
   "main": "index.js",
   "scripts": {
