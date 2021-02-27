@@ -8,15 +8,11 @@ function calcBirthday (num) {
   }
   num = num - 225
   console.log('ピピっ！あなたの誕生日が分かりました！')
-  if (String(num).length === 4) {
-    const birthMonth = String(num).substr(0, 2)
-    const birthDay = String(num).substr(2, 3)
-    console.log(`あなたの誕生日は${birthMonth}月${birthDay}日ではありませんか？`)
-  } else {
-    const birthMonth = String(num).substr(0, 1)
-    const birthDay = String(num).substr(1, 2)
-    console.log(`あなたの誕生日は${birthMonth}月${birthDay}日ではありませんか？`)
-  }
+  const numStr = String(num)
+  const monthLength = (numStr.length === 4) ? 2 : 1
+  const birthMonth = numStr.substr(0, monthLength)
+  const birthDay = numStr.substr(monthLength, monthLength + 1)
+  console.log(`あなたの誕生日は${birthMonth}月${birthDay}日ではありませんか？`)
 }
 
 async function exec () {
